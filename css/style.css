@@ -110,7 +110,7 @@
     background-size: cover;
 }
 
-.item:hover{
+.item3:hover{
     background: url(../img/3b.webp);
     display:block;
     background-size: contain;
@@ -122,7 +122,7 @@
     background-size: cover;
 }
 
-.item:hover{
+.item4:hover{
     background: url(../img/4b.webp);
     display:block;
     background-size: contain;
@@ -134,7 +134,7 @@
     background-size: cover;
 }
 
-.item:hover{
+.item5:hover{
     background: url(../img/5b.webp);
     display:block;
     background-size: contain;
@@ -146,7 +146,7 @@
     background-size: cover;
 }
 
-.item:hover{
+.item6:hover{
     background: url(../img/6b.webp);
     display:block;
     background-size: contain;
@@ -156,4 +156,9 @@
 .item6{
     background: url(../img/6.webp);
     background-size: cover;
+}
+
+
+.only{
+    margin-right: 10px;
 }
