@@ -4,11 +4,9 @@
     padding: 0;
 }
 
-.container{
-    width: 1000px;
-    height: 1000px;
-    margin: auto;
+main{
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .row{
@@ -16,7 +14,6 @@
 }
 
 .item{
-    width: 320px;
     height: 462px;
     position: relative;
 }
@@ -25,26 +22,31 @@
     width: 320px;
     height: 80px;
     text-align: left;
+    line-height: 1;
+    margin-top: 10px;
 }
 
 .discount{
-    position: absolute;
     left: 0;
+    background-color: red;
+}
+
+.sustainability{
+    left: 28px;
+    background-color: green;
+}
+
+.post-it{
+    position: absolute;
     bottom: 15px;
     color: white;
-    background-color: red;
     font-size: 10px;
     padding: 3px;
 }
 
-.sustainability{
-    position: absolute;
-    bottom: 15px;
-    left: 28px;
-    background-color: green;
-    color: white;
-    font-size: 10px;
-    padding: 3px;
+.only{
+    left: 0px;
+    margin-right: 10px;
 }
 
 .cuore{
@@ -55,8 +57,7 @@
 }
 
 .item:hover .cuore{
-    display: block;
-      
+    display: block;     
 }
 
 .item:active .cuore{
@@ -64,39 +65,36 @@
     color: red;
 }
 
+.scontato{
+    color: red;
+}
+
+.pieno{
+    text-decoration-line: line-through;
+    margin-left: 5px;
+}
+
+.prezzo{
+    font-size: 0.7em;
+}
+
+.brand{   
+    font-size: 12px;
+}
+
+.item-text{
+    display: inline-block;
+}
+
 .item:hover{
     background: url(../img/1b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item{
     background: url(../img/1.webp);
     background-size: cover;
-}
-
-.prezzo-scontato{
-    color: red;
-    font-size: 0.7em;
-}
-
-.prezzo-pieno{
-    text-decoration-line: line-through;
-    font-size: 0.7em;
-    margin-left: 5px;
-}
-
-.model{
-    font-weight:bold;
-}
-
-.brand{
-    color: silver;
-}
-
-.item-text{
-    display: inline-block;
 }
 
 .item2:hover{
@@ -152,8 +150,4 @@
 .item6{
     background: url(../img/6.webp);
     background-size: cover;
-}
-
-.only{
-    margin-right: 10px;
 }
