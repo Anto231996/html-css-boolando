@@ -98,3 +98,62 @@
     display: inline-block;
 }
 
+.item2:hover{
+    background: url(../img/2b.webp);
+    display:block;
+    background-size: contain;
+
+}
+
+.item2{
+    background: url(../img/2.webp);
+    background-size: cover;
+}
+
+.item:hover{
+    background: url(../img/3b.webp);
+    display:block;
+    background-size: contain;
+
+}
+
+.item3{
+    background: url(../img/3.webp);
+    background-size: cover;
+}
+
+.item:hover{
+    background: url(../img/4b.webp);
+    display:block;
+    background-size: contain;
+
+}
+
+.item4{
+    background: url(../img/4.webp);
+    background-size: cover;
+}
+
+.item:hover{
+    background: url(../img/5b.webp);
+    display:block;
+    background-size: contain;
+
+}
+
+.item5{
+    background: url(../img/5.webp);
+    background-size: cover;
+}
+
+.item:hover{
+    background: url(../img/6b.webp);
+    display:block;
+    background-size: contain;
+
+}
+
+.item6{
+    background: url(../img/6.webp);
+    background-size: cover;
+}
