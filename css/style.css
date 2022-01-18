@@ -51,9 +51,10 @@ main{
 
 .cuore{
     position: absolute;
-    right: 5px;
+    right: 10px;
     top: 5px; 
     display: none;
+    font-size: 30px;
 }
 
 .item:hover .cuore{
@@ -86,68 +87,59 @@ main{
     display: inline-block;
 }
 
-.item:hover{
+.item1:hover{
     background: url(../img/1b.webp);
-    display:block;
-    background-size: contain;
 }
 
-.item{
+.item1{
     background: url(../img/1.webp);
-    background-size: cover;
 }
 
 .item2:hover{
     background: url(../img/2b.webp);
-    display:block;
-    background-size: contain;
 }
 
 .item2{
     background: url(../img/2.webp);
-    background-size: cover;
 }
 
 .item3:hover{
     background: url(../img/3b.webp);
-    display:block;
-    background-size: contain;
 }
 
 .item3{
     background: url(../img/3.webp);
-    background-size: cover;
 }
 
 .item4:hover{
     background: url(../img/4b.webp);
-    display:block;
-    background-size: contain;
 }
 
 .item4{
     background: url(../img/4.webp);
-    background-size: cover;
 }
 
 .item5:hover{
     background: url(../img/5b.webp);
-    display:block;
-    background-size: contain;
 }
 
 .item5{
     background: url(../img/5.webp);
-    background-size: cover;
 }
 
 .item6:hover{
     background: url(../img/6b.webp);
-    display:block;
-    background-size: contain;
 }
 
 .item6{
     background: url(../img/6.webp);
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6{
     background-size: cover;
+}
+
+.hover:hover{
+    display:block;
+    background-size: contain;
 }
