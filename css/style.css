@@ -24,6 +24,7 @@
 .text{
     width: 320px;
     height: 80px;
+    text-align: left;
 }
 
 .discount{
@@ -94,7 +95,7 @@
     color: silver;
 }
 
-.row1{
+.item-text{
     display: inline-block;
 }
 
@@ -102,7 +103,6 @@
     background: url(../img/2b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item2{
@@ -114,7 +114,6 @@
     background: url(../img/3b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item3{
@@ -126,7 +125,6 @@
     background: url(../img/4b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item4{
@@ -138,7 +136,6 @@
     background: url(../img/5b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item5{
@@ -150,14 +147,12 @@
     background: url(../img/6b.webp);
     display:block;
     background-size: contain;
-
 }
 
 .item6{
     background: url(../img/6.webp);
     background-size: cover;
 }
-
 
 .only{
     margin-right: 10px;
