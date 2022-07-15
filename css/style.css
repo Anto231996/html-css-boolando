@@ -51,10 +51,12 @@ main{
 
 .cuore{
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 5px; 
-    display: none;
     font-size: 30px;
+    padding: 4px 8px;
+    background-color: white;
+    display: none;
 }
 
 .item:hover .cuore{
